@@ -18,3 +18,6 @@ For example I can fix a bug related to UI and then the commit message can be `fi
 
 Note that I can supply multiple scopes, for example, `feat(ui,lang): added an option to save the image as svg and added language support for Spanish`. Here we introduce 2 features – a new button to save an image as svg and language support for Spanish. This means that there are 2 scopes. The scopes can be separated by the 3 delimiters - ,, / and \.
 These are all the possible scopes you can use in the project: `['optimise','build','chore','ci','docs','feat','fix','perf','refactor','revert','style','test','configuration']`
+
+##### Pull Request 
+This repository contains a template which needs to be followed upon each PRs. You need to explain the purpose and answer certain question giving consents to certain tests and checks. This is to ensure developer follows the best practices and code base remains rich.
