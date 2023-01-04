@@ -6,7 +6,7 @@
 1. After taking clone, you need to run command `npm install`
 2. Now delete the ".husky" folder.
 3. Run command `npm run prepare`
-4. Run command `npx husky add .husky/pre-commit "npm run lint-staged"`
+4. Run command `npx husky add .husky/pre-commit "npm run lint-staged" && npx husky add .husky/commit-msg "npx --no -- commitlint --edit $1"`
 5. Start your project with `npm start`
 6. Don't try to mess with any pre-commit files or eslint rules in your local. Also don't try to bypass these setting else your code will not pass the pipeline checks in pull request.
 
